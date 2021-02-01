@@ -24,6 +24,10 @@
   <input type="text" id="state" name="state"><br>
   <label for="zip">ZIP:</label>
   <input type="text" id="zip" name="zip"><br>
+  <label for="doctor">Doctor: </label>
+  <select id="doctor" name="doctor">
+    <option value="default">Dynamically Generate These</option>
+  </select><br>
   <input type="submit" value="Add Patient">
   <input type="submit" value="Search for Patient">
 </form>
@@ -37,6 +41,7 @@
     <th>City</th>
     <th>State</th>
     <th>ZIP</th>
+    <th>Doctor</th>
   </tr>
 </table>
 <script src="js/main.js"></script>
