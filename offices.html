@@ -15,6 +15,7 @@
     <a href="nurses.html">Nurses</a>
     <a href="offices.html">Offices</a>
     <a href="managers.html">Managers</a>
+	<a href="officedoctor.html">Assignments</a>
 </div>      
 
 <p>Offices</p>
@@ -33,6 +34,10 @@
     <input type="text" id="state" name="state"><br>
     <label for="zip">ZIP:</label>
     <input type="text" id="zip" name="zip"><br>
+	<label for="manager">Manager: </label>
+    <select id="manager" name="manager">
+    <option value="default">Dynamically Generate These</option>
+    </select><br>
     <input type="submit" value="Add Office">
     <input type="submit" value="Search for Office">
 </form>
@@ -45,6 +50,7 @@
         <th>City</th>
         <th>State</th>
         <th>ZIP</th>
+		<th>Manager</th>
     </tr>
 </table>
 <script src="js/main.js"></script>

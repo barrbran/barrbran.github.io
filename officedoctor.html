@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doctors</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+<div class="topnav">
+    <a class="active" href="index.html">Home</a>
+    <a href="patients.html">Patients</a>
+    <a href="doctors.html">Doctors</a>
+    <a href="nurses.html">Nurses</a>
+    <a href="offices.html">Offices</a>
+    <a href="managers.html">Managers</a>
+	<a href="officedoctor.html">Assignments</a>
+</div>    
+
+<p>Office Assignments</p>
+
+<hr>
+<form>
+    <label for="office">Office: </label>
+    <select id="office" name="office">
+        <option value="default">Dynamically Generate These</option>
+    </select><br>
+    <label for="doctor">Doctor: </label>
+    <select id="doctor" name="doctor">
+        <option value="default">Dynamically Generate These</option>
+    </select><br>
+    <input type="submit" value="Add Assignment">
+</form>
+<hr>
+<table>
+    <tr>
+        <th>Office</th>
+        <th>Doctor</th>
+    </tr>
+    <tr>
+        <td>Primary Clinic</td>
+        <td>Bill Williams</td>
+        <td><button type="button">Delete</button></td>
+    </tr>
+	    <tr>
+        <td>Primary Clinic</td>
+        <td>Sarah Johnson</td>
+        <td><button type="button">Delete</button></td>
+    </tr>
+
+</table>
+<script src="js/main.js"></script>
+</body>
+</html>
